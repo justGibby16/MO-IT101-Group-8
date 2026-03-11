@@ -61,6 +61,7 @@ public class BasicPayrollMotorPH {
 
                 while (true) {
 
+                    System.out.println("             ");
                     System.out.println("PAYROLL MENU");
                     System.out.println("1. Process One Employee");
                     System.out.println("2. Process All Employees");
@@ -78,6 +79,7 @@ public class BasicPayrollMotorPH {
 
                     if (choice == 1) {
 
+                        System.out.println("                     ");
                         System.out.print("Enter employee number: ");
                         String inputEmpNo = sc.nextLine();
 
@@ -141,6 +143,7 @@ public class BasicPayrollMotorPH {
 
                 if (data[0].trim().equals(empNoInput)) {
 
+                    System.out.println("                              ");
                     System.out.println("Employee # : " + data[0].trim());
                     System.out.println("Employee Name : " + data[1].trim() + ", " + data[2].trim());
                     System.out.println("Birthday : " + data[3].trim());
@@ -202,6 +205,7 @@ static void displayEmployeePayroll(String empFile, String attFile, String empNoI
         return;
     }
 
+    System.out.println("                       ");
     System.out.println("Employee # : " + empNo);
     System.out.println("Employee Name: " + lastName + ", " + firstName);
     System.out.println("Birthday: " + birthday);
@@ -267,6 +271,7 @@ static void displayEmployeePayroll(String empFile, String attFile, String empNoI
         double gross1 = firstHalf * hourlyRate;
         double net1 = gross1;
 
+        System.out.println("                                      ");
         System.out.println("Cutoff Date: " + monthName + " 1 to 15");
         System.out.println("Total Hours Worked: " + firstHalf);
         System.out.println("Gross Salary: " + gross1);
@@ -287,16 +292,19 @@ static void displayEmployeePayroll(String empFile, String attFile, String empNoI
         double totalDeduction = sss + philhealth + pagibig + tax;
         double net2 = gross2 - totalDeduction;
 
+        System.out.println("                                                   ");
         System.out.println("Cutoff Date: " + monthName + " 16 to " + daysInMonth);
         System.out.println("Total hours worked: " + secondHalf);
         System.out.println("Gross Salary: " + gross2);
 
+        System.out.println("               ");
         System.out.println("Each deduction:");
         System.out.println("SSS: " + sss);
         System.out.println("Philhealth: " + philhealth);
         System.out.println("Pag-IBIG: " + pagibig);
         System.out.println("Tax: " + tax);
 
+        System.out.println("                                   ");
         System.out.println("Total Deductions: " + totalDeduction);
         System.out.println("Net Salary: " + net2);
         
