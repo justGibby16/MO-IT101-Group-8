@@ -43,7 +43,7 @@ The Basic Payroll MotorPH system is a console-based Java application that simula
 * A grace period until 8:10 AM is considered; late logins reduce worked hours.
 * Maximum of 8 hours per day is applied.
 
-##Project Plan Link
+Project Plan Link
 * https://docs.google.com/spreadsheets/d/1dBRgeTXiUNJuw5zbtHSljKCA9ZgDH7hiGJl_bFZogwI/edit?usp=sharing
 <br> 
 
