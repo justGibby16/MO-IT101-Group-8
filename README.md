@@ -1,4 +1,20 @@
-# MotorPH Basic Payroll System
+## Team Contributions
+* Margie - Employee details and login/logout system
+   * Handled the login logic for both employee and payroll staff users.
+   * Managed the employee menu and the display of employee details.
+* Julius - Get employee info
+   * Focused on extracting employee information from the Employee Details.csv file.
+   * Worked on parsing employee data like name, birthday, and hourly rate.
+   * Assisted in linking employee data to the attendance records.
+* Gibby - Payroll calculation
+   * Responsible for the logic in computing gross and net salaries, including deductions (SSS, PhilHealth, Pag-IBIG, tax).
+   * Implemented the cutoff splits (1st–15th and 16th–end of month).
+   * Worked on the computeHours() method and the display of payroll summaries.
+* Jana - Minor adjustments
+   * Made refinements to the code for better functionality and readability.
+   * Helped small fixes across the system.
+
+# MotorPH Basic Payroll System 
 
 The Basic Payroll MotorPH system is a console-based Java application that simulates a simple payroll system for a company called MotorPH. It allows two types of users to log in:
 * Employee Users – Can view their personal details by entering their employee number.
@@ -26,21 +42,9 @@ The Basic Payroll MotorPH system is a console-based Java application that simula
 * Login and logout times are parsed and compared.
 * A grace period until 8:10 AM is considered; late logins reduce worked hours.
 * Maximum of 8 hours per day is applied.
+
+##Project Plan Link
+* https://docs.google.com/spreadsheets/d/1dBRgeTXiUNJuw5zbtHSljKCA9ZgDH7hiGJl_bFZogwI/edit?usp=sharing
 <br> 
 
-## Team Contributions
-* Margie - Employee details and login/logout system
-   * Handled the login logic for both employee and payroll staff users.
-   * Managed the employee menu and the display of employee details.
-* Julius - Get employee info
-   * Focused on extracting employee information from the Employee Details.csv file.
-   * Worked on parsing employee data like name, birthday, and hourly rate.
-   * Assisted in linking employee data to the attendance records.
-* Gibby - Payroll calculation
-   * Responsible for the logic in computing gross and net salaries, including deductions (SSS, PhilHealth, Pag-IBIG, tax).
-   * Implemented the cutoff splits (1st–15th and 16th–end of month).
-   * Worked on the computeHours() method and the display of payroll summaries.
-* Jana - Minor adjustments
-   * Made refinements to the code for better functionality and readability.
-   * Helped small fixes across the system.
 
