@@ -1,2 +1,2 @@
-# MS2-Basic-Payroll-Code
+# MO-IT101-Group-8
 Code for Basic Payroll System
