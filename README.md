@@ -131,6 +131,7 @@ Compared to the previous version, the system now includes:
 -Cleaner and more maintainable codebase
 
 ```text
+Project Structure
 group8.calculator
 │
 ├── Calculator.java
@@ -147,6 +148,7 @@ group8.calculator
 │   └── computeTax()
 ```
 
+```text
 **How to Run the Program**
 Ensure the following files are available:
 Employee Details.csv
@@ -157,6 +159,7 @@ javac Calculator.java
 
 Run the program:
 java Calculator
+```
 
 **Summary**
 
