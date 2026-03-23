@@ -1,4 +1,5 @@
 ## Team Contributions
+---
 * Margie - Employee details and login/logout system
    * Handled the login logic for both employee and payroll staff users.
    * Managed the employee menu and the display of employee details.
@@ -21,7 +22,7 @@
 The Payroll System is a console-based Java application designed to simulate a structured payroll processing system for MotorPH. The program supports multiple user roles and processes employee payroll based on attendance records and government-mandated deductions.
 
 This enhanced version improves upon the original implementation by focusing on efficiency, modularity, scalability, and code readability, in line with best programming practices.
-
+---
 **User Roles**
 
 The system supports two types of users:
@@ -41,7 +42,7 @@ Can process payroll for:
 - A single employee  
 - All employees  
 - Generates detailed payroll reports per cutoff and per month  
-
+---
 **Login Credentials**
 
 | Roles | Username | Password|
@@ -49,6 +50,7 @@ Can process payroll for:
 | Employee  | employee | 12345 |
 | Payroll Staff  | payroll_staff | 12345  |
 
+---
 **System Features**
 1. Data Handling
 
@@ -133,6 +135,7 @@ java.time.Month
 ```
 
 Eliminates hardcoded values and improves scalability
+---
 
 **Design Improvements**
 
@@ -144,6 +147,7 @@ Compared to the previous version, the system now includes:
 - Correct payroll deduction logic  
 - Enhanced time computation logic  
 - Cleaner and more maintainable codebase  
+---
 
 Project Structure
 ```text
@@ -162,6 +166,7 @@ group8.calculator
 │   ├── computePagibig()
 │   └── computeTax()
 ```
+---
 
 **How to Run the Program**
 ```text
@@ -185,10 +190,13 @@ Improved performance
 Better maintainability
 Compliance with required payroll rules
 
+---
+
 **Project Plan Link**
 * https://docs.google.com/spreadsheets/d/1dBRgeTXiUNJuw5zbtHSljKCA9ZgDH7hiGJl_bFZogwI/edit?usp=sharing
 <br> 
 
+---
 **Quality Assurance (QA) Testing**
 
 QA testing was conducted to verify the correctness, reliability, and completeness of the system. Test cases include:
