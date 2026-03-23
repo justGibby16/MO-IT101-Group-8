@@ -174,16 +174,27 @@ group8.calculator
 ---
 
 **How to Run the Program**
+CSV files available in the resources folder:
 ```text
-Ensure the following files are available:
 Employee Details.csv
 Attendance Record.csv
-
+```
+Project Directory
+```text
+MO-IT101-Group-8/src/main/java
+```
+Steps to Run
+Navigate to the source directory:
+```text
+cd MO-IT101-Group-8/src/main/java
+```
 Compile the program:
-javac Calculator.java
-
+```text
+javac group8/basicpayrollmotorph/BasicPayrollMotorPH.java
+```
 Run the program:
-java Calculator
+```text
+java group8.basicpayrollmotorph.BasicPayrollMotorPH
 ```
 
 **Summary**
