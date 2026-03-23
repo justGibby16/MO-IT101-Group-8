@@ -83,11 +83,11 @@ Second Cutoff: Day 16–end of month
 
 For each employee, the system:
 
-+Calculates total hours worked per cutoff
-+Computes gross salary using hourly rate
-+Combines both cutoffs to determine monthly gross salary
-+Applies government deductions only in the second cutoff
-+Displays a detailed payroll summary
+*Calculates total hours worked per cutoff.
+*Computes gross salary using hourly rate.
+*Combines both cutoffs to determine monthly gross salary.
+*Applies government deductions only in the second cutoff.
+*Displays a detailed payroll summary.
 
 3. Attendance and Work Hour Computation
 
