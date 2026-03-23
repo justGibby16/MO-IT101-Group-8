@@ -18,7 +18,7 @@
 
 Overview
 
-The MotorPH Payroll System is a console-based Java application designed to simulate a structured payroll processing system for a company. The program supports multiple user roles and processes employee payroll based on attendance records and government-mandated deductions.
+The Payroll System is a console-based Java application designed to simulate a structured payroll processing system for MotorPH. The program supports multiple user roles and processes employee payroll based on attendance records and government-mandated deductions.
 
 This enhanced version improves upon the original implementation by focusing on efficiency, modularity, scalability, and code readability, in line with best programming practices.
 
