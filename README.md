@@ -29,6 +29,7 @@ This enhanced version improves upon the original implementation by focusing on e
 The system supports two types of users:
 
 **Employee User**
+
 Can log in using employee credentials
 
 Can view personal information:
@@ -38,6 +39,7 @@ Can view personal information:
 - Birthday  
 
 **Payroll Staff User**
+
 Can process payroll for:
 
 - A single employee  
