@@ -211,10 +211,8 @@ The enhanced MotorPH Payroll System provides a more efficient and scalable solut
 
 ---
 
-**Project Plan Link**
-```text
+**Project Plan Link**  
 [Project Plan](https://docs.google.com/spreadsheets/d/1dBRgeTXiUNJuw5zbtHSljKCA9ZgDH7hiGJl_bFZogwI/edit?usp=sharing)
-```
 
 ---
 
