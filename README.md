@@ -1,5 +1,4 @@
 ## Team Contributions
----
 * Margie - Employee details and login/logout system
    * Handled the login logic for both employee and payroll staff users.
    * Managed the employee menu and the display of employee details.
@@ -22,7 +21,9 @@
 The Payroll System is a console-based Java application designed to simulate a structured payroll processing system for MotorPH. The program supports multiple user roles and processes employee payroll based on attendance records and government-mandated deductions.
 
 This enhanced version improves upon the original implementation by focusing on efficiency, modularity, scalability, and code readability, in line with best programming practices.
+
 ---
+
 **User Roles**
 
 The system supports two types of users:
@@ -42,7 +43,9 @@ Can process payroll for:
 - A single employee  
 - All employees  
 - Generates detailed payroll reports per cutoff and per month  
+
 ---
+
 **Login Credentials**
 
 | Roles | Username | Password|
@@ -51,6 +54,7 @@ Can process payroll for:
 | Payroll Staff  | payroll_staff | 12345  |
 
 ---
+
 **System Features**
 1. Data Handling
 
@@ -135,6 +139,7 @@ java.time.Month
 ```
 
 Eliminates hardcoded values and improves scalability
+
 ---
 
 **Design Improvements**
@@ -197,6 +202,7 @@ Compliance with required payroll rules
 <br> 
 
 ---
+
 **Quality Assurance (QA) Testing**
 
 QA testing was conducted to verify the correctness, reliability, and completeness of the system. Test cases include:
